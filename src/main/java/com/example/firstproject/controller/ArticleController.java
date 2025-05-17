@@ -29,7 +29,6 @@ public class ArticleController {
         // JPA 1. Dto를 변환! Entity!
         Article article = form.toEntity();
         log.info(article.toString());
-//        System.out.println(article.toString());
 
         // JPA 2. Repository에게 Entity를 DB안에 저장하게 함!
         Article saved = articleRepository.save(article);
