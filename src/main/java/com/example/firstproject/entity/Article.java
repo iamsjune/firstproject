@@ -19,6 +19,6 @@ public class Article {
     @Column // 열이라는 걸 알려야함
     private String title;
 
-    @Column
+    @Column // 열이라는 걸 알려야함
     private String content;
 }
